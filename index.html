@@ -8,7 +8,7 @@
     <link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Exercice 15.06.20 Landing page responsive</title>
 </head>
 
@@ -36,19 +36,24 @@
         </nav>
     </header>
 
-    <img src="./images/course.jpg" class="w-100" alt="photo de sportives">
+    <div id="img_banniere"></div>
+    <img src="./images/course.jpg" class="w-100" alt="photo de sportives" id="banniere">
 
     <div class="container">
 
-        <div class="row my-5">
+        <div class="row my-4">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="row">
-                    <h2>Explications</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum beatae laboriosam harum porro
-                        ab dicta
-                        officiis minus? Quos vero mollitia voluptatem sapiente nihil quam illo, ipsam debitis provident
-                        non. Lorem,
-                        ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div class="col-12">
+                        <h2>Explications</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum beatae laboriosam harum
+                            porro
+                            ab dicta
+                            officiis minus? Quos vero mollitia voluptatem sapiente nihil quam illo, ipsam debitis
+                            provident
+                            non. Lorem,
+                            ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
                 </div>
                 <div class="row my-4">
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -56,7 +61,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum beatae laboriosam harum
                             porro ab dicta
                             officiis minus? Quos vero mollitia voluptatem sapiente nihil quam illo. </p>
-                        <img src="./images/logo_ruée.jpg" alt="logo de la ruée des Fadas" class="w-50">
+                        <img src="./images/logo_ruée.jpg" alt="logo de la ruée des Fadas" class="w-50 mb-5 img-fluid  mx-auto d-block" id="logo2">
 
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -64,7 +69,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rerum beatae laboriosam harum
                             porro ab dicta
                             officiis minus? Quos vero mollitia voluptatem sapiente nihil quam illo. </p>
-                        <img src="./images/logo_spartan.jpg" alt="Logo de la Spartan Race" class="w-75">
+                        <img src="./images/logo_spartan.jpg" alt="Logo de la Spartan Race" class="w-75  img-fluid  mx-auto d-block" id="logo1">
 
                     </div>
                 </div>
@@ -89,7 +94,7 @@
 
             </div>
             <div class="col-lg-3 col-sm-12">
-                <img src="./images/sportive.jpg" class="w-100" alt="photo d'une sportive">
+                <img src="./images/sportive.jpg" class="w-100" alt="photo d'une sportive" id="solo">
             </div>
         </div>
 
